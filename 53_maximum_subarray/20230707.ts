@@ -7,7 +7,7 @@ var maxSubArray = function (nums) {
   let currentSum = nums[0];
 
   for (let i = 1; i < nums.length; i++) {
-    currentSum = Math.max(nums[i], currentSum + nums[i]);
+    currentSum = Math.max(nums[i], currentSum + nums[i]); // "Am I strogner alone or with you?"
     maxSum = Math.max(maxSum, currentSum);
   }
 
