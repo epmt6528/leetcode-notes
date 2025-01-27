@@ -50,6 +50,7 @@ var lengthOfLongestSubstring = function(s) {
   return longestLength
 };
 
+
 function lengthOfLongestSubstring(s) {
   let charSet = new Set();
   let start = 0;
